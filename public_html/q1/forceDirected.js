@@ -12,7 +12,7 @@ var force = d3.layout.force()
             .charge(-100)
             .size([width, height]);
 
-d3.json("../polBooks.json", function(error, json) {
+d3.json("./polBooks.json", function(error, json) {
 
     if (error) throw error;
 

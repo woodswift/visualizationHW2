@@ -2,9 +2,14 @@ svg {
     height: 1400px;
     width: 1400px;
     border: 1px solid gray;
+    text-align: center;
+    padding: auto; 
+}
+g {
+    margin: auto;
 }
 g.am-axis text {
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .domain {

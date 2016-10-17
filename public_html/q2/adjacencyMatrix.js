@@ -3,7 +3,7 @@ d3.json("./polBooksSorted.json", createAdjacencyMatrix);
 function createAdjacencyMatrix(data) {
 //    console.log(data);
     var adjacencyMatrix = d3.layout.adjacencyMatrix()
-                        .size([800,800])
+                        .size([1350,1350])
                         .nodes(data.nodes)
                         .links(data.links)
                         .directed(false)

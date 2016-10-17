@@ -11,7 +11,7 @@ function createAdjacencyMatrix(data) {
 
     var matrixData = adjacencyMatrix();
 
-    console.log(matrixData);
+//    console.log(matrixData);
 
     var someColors = d3.scale.category10();
 

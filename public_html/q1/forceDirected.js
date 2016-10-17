@@ -51,6 +51,11 @@ d3.json("./polBooks.json", function(error, json) {
             .append("g")
             .attr("class", "node")
             .on("mouseover", function(d){
+                d3.select(this)
+                    .select("circle")
+                    .transition()
+                    .duration(750)
+                    .attr("r", function(d) {return 3/2*d.Degree;});
 //                console.log(d);
                 d3.select("#label").text(d.Label);
                 d3.select("#class").text(d.Class);
@@ -102,7 +107,7 @@ d3.json("./polBooks.json", function(error, json) {
                 .select("circle")
                 .transition()
                 .duration(750)
-                .attr("r", function(d) {return 2/3*d.Degree;});
+                .attr("r", function(d) {return d.Degree;});
         d3.select("#label").text("");
         d3.select("#class").text("");
         d3.select("#degree").text("");

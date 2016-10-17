@@ -52,7 +52,7 @@ function createAdjacencyMatrix(data) {
             if(d.weight !== 0){
                 //Get this bar's x/y values, then augment for the tooltip
                 var xPosition = parseFloat(d3.select(this).attr("x"))+$("svg").position().left;
-                var yPosition = parseFloat(d3.select(this).attr("y"))+$("svg").position().top;
+                var yPosition = parseFloat(d3.select(this).attr("y"))+$("svg").position().top-50;
     //                console.log("x:"+d3.select(this).attr("x"));
                 
                 //Update the tooltip position and value
@@ -66,6 +66,12 @@ function createAdjacencyMatrix(data) {
                 d3.select("#targetClass").text(d.target.Class);
                 //Show the tooltip
                 d3.select("#tooltip").classed("hidden", false);
+                var color = $(this).css("fill");
+                $(this).css("fill","orange");
+                $(this).mouseout(function(){
+                    $(this).css("fill",color);
+                    $(this).unbind("mouseout");
+                });
             }
         })
         .on("mouseout", function() {		   

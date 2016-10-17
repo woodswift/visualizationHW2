@@ -50,7 +50,12 @@ d3.json("./polBooks.json", function(error, json) {
             .enter()
             .append("g")
             .attr("class", "node")
-            .on("mouseover", mouseover)
+            .on("mouseover", function(d){
+//                console.log(d);
+                d3.select("#label").text(d.Label);
+                d3.select("#class").text(d.Class);
+                d3.select("#degree").text(d.Degree);
+            })
             .on("mouseout", mouseout)
             .call(force.drag);
 
@@ -92,20 +97,15 @@ d3.json("./polBooks.json", function(error, json) {
             return "translate(" + d.x + "," + d.y + ")"; });
         });
 
-    function mouseover() {
-        d3.select(this)
-                .select("circle")
-                .transition()
-                .duration(750)
-                .attr("r", function(d) {return 3/2*d.Degree;});
-    };
-
     function mouseout() {
         d3.select(this)
                 .select("circle")
                 .transition()
                 .duration(750)
                 .attr("r", function(d) {return 2/3*d.Degree;});
+        d3.select("#label").text("");
+        d3.select("#class").text("");
+        d3.select("#degree").text("");
     };
 
 });

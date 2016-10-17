@@ -5,7 +5,9 @@ $("#return").click(function(){
 
 
 var width = 1200,
-    height = 700;
+    height = 800;
+
+var color = d3.scale.category10();
 
 var svg = d3.select("body")
             .append("svg")
@@ -17,6 +19,17 @@ var force = d3.layout.force()
             .distance(100)
             .charge(-100)
             .size([width, height]);
+var title = d3.select("svg").append("g")
+                .attr("class","title");
+
+title.append("text")
+    .attr("x",(width/2))
+    .attr("y",30)
+    .attr("text-anchor","middle")
+    .style("font-size","22px")
+    .text('Force Directed Graph Layout of Network about "Books about US Politics"');
+    
+
 
 d3.json("./polBooks.json", function(error, json) {
 
@@ -96,3 +109,28 @@ d3.json("./polBooks.json", function(error, json) {
     };
 
 });
+var legend = svg.selectAll(".legend")
+                .data(["c","l","n"])
+                .enter().append("g")
+                .attr("class","legend")
+                .attr("height",15)
+                .attr("transform",function(d,i){
+                return "translate("+(i*40-170)+",60)";});
+
+legend.append("rect")
+        .attr("x",width-18)
+        .attr("y",-1)
+        .attr("width",10)
+        .attr("height",10)
+        .style("fill",function(d){
+            if(d === "c") return "blue";
+            if(d === "l") return "red";
+            if(d === "n") return "yellow";
+});
+
+legend.append("text")
+        .attr("x",width-24)
+        .attr("y",4)
+        .attr("dy",".35em")
+        .style("text-anchor","end")
+        .text(function(d){return d;});

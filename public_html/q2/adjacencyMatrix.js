@@ -1,3 +1,9 @@
+$("#return").click(function(){
+    self.location= "../index.html";
+});
+
+
+
 d3.json("./polBooksSorted.json", createAdjacencyMatrix);
 
 function createAdjacencyMatrix(data) {

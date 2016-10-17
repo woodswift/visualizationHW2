@@ -2,8 +2,9 @@ svg {
     height: 1400px;
     width: 1400px;
     border: 1px solid gray;
-    text-align: center;
-    padding: auto; 
+    margin: auto;  
+    position: absolute;  
+    left: 0; right: 0;  
 }
 g {
     margin: auto;

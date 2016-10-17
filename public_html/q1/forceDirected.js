@@ -1,3 +1,9 @@
+$("#return").click(function(){
+    self.location= "../index.html";
+});
+
+
+
 var width = 1200,
     height = 700;
 

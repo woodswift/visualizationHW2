@@ -1,0 +1,2946 @@
+{
+    "links": [
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 1,
+            "weight": 1
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 2,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 1
+        },
+        {
+            "source": 6,
+            "target": 1,
+            "weight": 1
+        },
+        {
+            "source": 6,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 6,
+            "target": 5,
+            "weight": 1
+        },
+        {
+            "source": 7,
+            "target": 2,
+            "weight": 1
+        },
+        {
+            "source": 7,
+            "target": 5,
+            "weight": 1
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 8,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 9,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 10,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 10,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 10,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 11,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 11,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 11,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 11,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 12,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 12,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 12,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 12,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 12,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 13,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 13,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 13,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 13,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 14,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 14,
+            "target": 7,
+            "weight": 1
+        },
+        {
+            "source": 14,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 14,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 14,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 14,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 15,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 15,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 15,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 16,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 16,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 16,
+            "target": 15,
+            "weight": 1
+        },
+        {
+            "source": 17,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 17,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 17,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 17,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 18,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 18,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 18,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 19,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 19,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 20,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 20,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 20,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 20,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 21,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 21,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 21,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 21,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 22,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 22,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 22,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 22,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 23,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 23,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 23,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 23,
+            "target": 21,
+            "weight": 1
+        },
+        {
+            "source": 24,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 24,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 24,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 24,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 24,
+            "target": 20,
+            "weight": 1
+        },
+        {
+            "source": 25,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 25,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 25,
+            "target": 14,
+            "weight": 1
+        },
+        {
+            "source": 25,
+            "target": 22,
+            "weight": 1
+        },
+        {
+            "source": 26,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 26,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 26,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 26,
+            "target": 14,
+            "weight": 1
+        },
+        {
+            "source": 26,
+            "target": 24,
+            "weight": 1
+        },
+        {
+            "source": 27,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 27,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 27,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 27,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 27,
+            "target": 23,
+            "weight": 1
+        },
+        {
+            "source": 28,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 29,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 29,
+            "target": 6,
+            "weight": 1
+        },
+        {
+            "source": 29,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 29,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 30,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 30,
+            "target": 7,
+            "weight": 1
+        },
+        {
+            "source": 31,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 31,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 32,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 32,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 32,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 32,
+            "target": 23,
+            "weight": 1
+        },
+        {
+            "source": 33,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 33,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 33,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 33,
+            "target": 23,
+            "weight": 1
+        },
+        {
+            "source": 33,
+            "target": 32,
+            "weight": 1
+        },
+        {
+            "source": 35,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 35,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 35,
+            "target": 34,
+            "weight": 1
+        },
+        {
+            "source": 36,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 36,
+            "target": 34,
+            "weight": 1
+        },
+        {
+            "source": 36,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 37,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 37,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 37,
+            "target": 33,
+            "weight": 1
+        },
+        {
+            "source": 37,
+            "target": 34,
+            "weight": 1
+        },
+        {
+            "source": 37,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 38,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 38,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 38,
+            "target": 33,
+            "weight": 1
+        },
+        {
+            "source": 38,
+            "target": 34,
+            "weight": 1
+        },
+        {
+            "source": 38,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 38,
+            "target": 37,
+            "weight": 1
+        },
+        {
+            "source": 39,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 39,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 39,
+            "target": 33,
+            "weight": 1
+        },
+        {
+            "source": 39,
+            "target": 34,
+            "weight": 1
+        },
+        {
+            "source": 39,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 39,
+            "target": 38,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 20,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 22,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 24,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 25,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 26,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 27,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 40,
+            "target": 39,
+            "weight": 1
+        },
+        {
+            "source": 41,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 41,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 41,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 41,
+            "target": 27,
+            "weight": 1
+        },
+        {
+            "source": 41,
+            "target": 36,
+            "weight": 1
+        },
+        {
+            "source": 41,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 42,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 42,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 42,
+            "target": 39,
+            "weight": 1
+        },
+        {
+            "source": 42,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 43,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 43,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 43,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 43,
+            "target": 42,
+            "weight": 1
+        },
+        {
+            "source": 44,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 44,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 44,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 44,
+            "target": 35,
+            "weight": 1
+        },
+        {
+            "source": 44,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 45,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 45,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 45,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 45,
+            "target": 26,
+            "weight": 1
+        },
+        {
+            "source": 45,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 46,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 46,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 17,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 23,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 24,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 26,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 27,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 33,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 36,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 37,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 41,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 42,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 45,
+            "weight": 1
+        },
+        {
+            "source": 47,
+            "target": 46,
+            "weight": 1
+        },
+        {
+            "source": 48,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 48,
+            "target": 20,
+            "weight": 1
+        },
+        {
+            "source": 49,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 49,
+            "target": 20,
+            "weight": 1
+        },
+        {
+            "source": 49,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 49,
+            "target": 48,
+            "weight": 1
+        },
+        {
+            "source": 50,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 50,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 51,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 52,
+            "target": 9,
+            "weight": 1
+        },
+        {
+            "source": 52,
+            "target": 22,
+            "weight": 1
+        },
+        {
+            "source": 52,
+            "target": 51,
+            "weight": 1
+        },
+        {
+            "source": 53,
+            "target": 20,
+            "weight": 1
+        },
+        {
+            "source": 53,
+            "target": 24,
+            "weight": 1
+        },
+        {
+            "source": 53,
+            "target": 26,
+            "weight": 1
+        },
+        {
+            "source": 53,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 54,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 54,
+            "target": 23,
+            "weight": 1
+        },
+        {
+            "source": 54,
+            "target": 27,
+            "weight": 1
+        },
+        {
+            "source": 54,
+            "target": 40,
+            "weight": 1
+        },
+        {
+            "source": 54,
+            "target": 41,
+            "weight": 1
+        },
+        {
+            "source": 54,
+            "target": 47,
+            "weight": 1
+        },
+        {
+            "source": 55,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 55,
+            "target": 12,
+            "weight": 1
+        },
+        {
+            "source": 55,
+            "target": 15,
+            "weight": 1
+        },
+        {
+            "source": 55,
+            "target": 19,
+            "weight": 1
+        },
+        {
+            "source": 56,
+            "target": 11,
+            "weight": 1
+        },
+        {
+            "source": 56,
+            "target": 19,
+            "weight": 1
+        },
+        {
+            "source": 56,
+            "target": 43,
+            "weight": 1
+        },
+        {
+            "source": 57,
+            "target": 13,
+            "weight": 1
+        },
+        {
+            "source": 57,
+            "target": 20,
+            "weight": 1
+        },
+        {
+            "source": 57,
+            "target": 48,
+            "weight": 1
+        },
+        {
+            "source": 57,
+            "target": 49,
+            "weight": 1
+        },
+        {
+            "source": 57,
+            "target": 56,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 7,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 14,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 49,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 50,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 51,
+            "weight": 1
+        },
+        {
+            "source": 58,
+            "target": 52,
+            "weight": 1
+        },
+        {
+            "source": 60,
+            "target": 59,
+            "weight": 1
+        },
+        {
+            "source": 61,
+            "target": 59,
+            "weight": 1
+        },
+        {
+            "source": 62,
+            "target": 59,
+            "weight": 1
+        },
+        {
+            "source": 62,
+            "target": 60,
+            "weight": 1
+        },
+        {
+            "source": 63,
+            "target": 59,
+            "weight": 1
+        },
+        {
+            "source": 63,
+            "target": 60,
+            "weight": 1
+        },
+        {
+            "source": 63,
+            "target": 62,
+            "weight": 1
+        },
+        {
+            "source": 64,
+            "target": 51,
+            "weight": 1
+        },
+        {
+            "source": 64,
+            "target": 52,
+            "weight": 1
+        },
+        {
+            "source": 64,
+            "target": 58,
+            "weight": 1
+        },
+        {
+            "source": 65,
+            "target": 51,
+            "weight": 1
+        },
+        {
+            "source": 65,
+            "target": 58,
+            "weight": 1
+        },
+        {
+            "source": 65,
+            "target": 64,
+            "weight": 1
+        },
+        {
+            "source": 66,
+            "target": 28,
+            "weight": 1
+        },
+        {
+            "source": 66,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 66,
+            "target": 64,
+            "weight": 1
+        },
+        {
+            "source": 67,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 67,
+            "target": 64,
+            "weight": 1
+        },
+        {
+            "source": 67,
+            "target": 65,
+            "weight": 1
+        },
+        {
+            "source": 67,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 68,
+            "target": 58,
+            "weight": 1
+        },
+        {
+            "source": 68,
+            "target": 64,
+            "weight": 1
+        },
+        {
+            "source": 68,
+            "target": 65,
+            "weight": 1
+        },
+        {
+            "source": 69,
+            "target": 51,
+            "weight": 1
+        },
+        {
+            "source": 69,
+            "target": 58,
+            "weight": 1
+        },
+        {
+            "source": 69,
+            "target": 64,
+            "weight": 1
+        },
+        {
+            "source": 69,
+            "target": 65,
+            "weight": 1
+        },
+        {
+            "source": 70,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 70,
+            "target": 64,
+            "weight": 1
+        },
+        {
+            "source": 70,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 71,
+            "target": 7,
+            "weight": 1
+        },
+        {
+            "source": 71,
+            "target": 68,
+            "weight": 1
+        },
+        {
+            "source": 71,
+            "target": 70,
+            "weight": 1
+        },
+        {
+            "source": 72,
+            "target": 28,
+            "weight": 1
+        },
+        {
+            "source": 72,
+            "target": 49,
+            "weight": 1
+        },
+        {
+            "source": 72,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 72,
+            "target": 70,
+            "weight": 1
+        },
+        {
+            "source": 72,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 73,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 73,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 73,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 73,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 73,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 74,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 74,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 74,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 74,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 74,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 74,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 70,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 75,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 49,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 53,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 76,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 19,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 58,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 77,
+            "target": 76,
+            "weight": 1
+        },
+        {
+            "source": 78,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 78,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 78,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 78,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 78,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 79,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 79,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 79,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 79,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 79,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 80,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 80,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 80,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 80,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 81,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 82,
+            "target": 76,
+            "weight": 1
+        },
+        {
+            "source": 83,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 83,
+            "target": 71,
+            "weight": 1
+        },
+        {
+            "source": 83,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 83,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 83,
+            "target": 76,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 60,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 62,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 76,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 79,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 81,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 82,
+            "weight": 1
+        },
+        {
+            "source": 84,
+            "target": 83,
+            "weight": 1
+        },
+        {
+            "source": 85,
+            "target": 7,
+            "weight": 1
+        },
+        {
+            "source": 85,
+            "target": 58,
+            "weight": 1
+        },
+        {
+            "source": 85,
+            "target": 65,
+            "weight": 1
+        },
+        {
+            "source": 85,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 85,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 60,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 61,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 76,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 81,
+            "weight": 1
+        },
+        {
+            "source": 86,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 87,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 87,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 87,
+            "target": 83,
+            "weight": 1
+        },
+        {
+            "source": 87,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 88,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 88,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 88,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 88,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 89,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 89,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 89,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 89,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 89,
+            "target": 86,
+            "weight": 1
+        },
+        {
+            "source": 89,
+            "target": 88,
+            "weight": 1
+        },
+        {
+            "source": 90,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 90,
+            "target": 70,
+            "weight": 1
+        },
+        {
+            "source": 90,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 91,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 91,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 91,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 91,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 91,
+            "target": 79,
+            "weight": 1
+        },
+        {
+            "source": 91,
+            "target": 90,
+            "weight": 1
+        },
+        {
+            "source": 92,
+            "target": 72,
+            "weight": 1
+        },
+        {
+            "source": 92,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 92,
+            "target": 75,
+            "weight": 1
+        },
+        {
+            "source": 93,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 93,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 93,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 93,
+            "target": 86,
+            "weight": 1
+        },
+        {
+            "source": 94,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 94,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 94,
+            "target": 93,
+            "weight": 1
+        },
+        {
+            "source": 95,
+            "target": 61,
+            "weight": 1
+        },
+        {
+            "source": 95,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 95,
+            "target": 94,
+            "weight": 1
+        },
+        {
+            "source": 96,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 96,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 96,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 96,
+            "target": 94,
+            "weight": 1
+        },
+        {
+            "source": 97,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 97,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 97,
+            "target": 81,
+            "weight": 1
+        },
+        {
+            "source": 97,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 97,
+            "target": 86,
+            "weight": 1
+        },
+        {
+            "source": 97,
+            "target": 96,
+            "weight": 1
+        },
+        {
+            "source": 98,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 98,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 98,
+            "target": 87,
+            "weight": 1
+        },
+        {
+            "source": 98,
+            "target": 91,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 30,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 59,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 60,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 62,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 63,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 74,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 90,
+            "weight": 1
+        },
+        {
+            "source": 99,
+            "target": 93,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 62,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 66,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 73,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 79,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 83,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 86,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 91,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 96,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 98,
+            "weight": 1
+        },
+        {
+            "source": 100,
+            "target": 99,
+            "weight": 1
+        },
+        {
+            "source": 101,
+            "target": 61,
+            "weight": 1
+        },
+        {
+            "source": 101,
+            "target": 84,
+            "weight": 1
+        },
+        {
+            "source": 101,
+            "target": 86,
+            "weight": 1
+        },
+        {
+            "source": 101,
+            "target": 94,
+            "weight": 1
+        },
+        {
+            "source": 101,
+            "target": 100,
+            "weight": 1
+        },
+        {
+            "source": 102,
+            "target": 46,
+            "weight": 1
+        },
+        {
+            "source": 102,
+            "target": 93,
+            "weight": 1
+        },
+        {
+            "source": 102,
+            "target": 94,
+            "weight": 1
+        },
+        {
+            "source": 102,
+            "target": 95,
+            "weight": 1
+        },
+        {
+            "source": 103,
+            "target": 67,
+            "weight": 1
+        },
+        {
+            "source": 104,
+            "target": 67,
+            "weight": 1
+        },
+        {
+            "source": 104,
+            "target": 69,
+            "weight": 1
+        },
+        {
+            "source": 104,
+            "target": 103,
+            "weight": 1
+        }
+    ],
+    "nodes": [
+        {
+            "Id": 0,
+            "Label": "1000 Years for Revenge",
+            "Class": "n",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 1,
+            "Label": "Bush vs. the Beltway",
+            "Class": "c",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 2,
+            "Label": "Charlie Wilson's War",
+            "Class": "c",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 3,
+            "Label": "Losing Bin Laden",
+            "Class": "c",
+            "Degree": 23,
+            "Weight": 1
+        },
+        {
+            "Id": 4,
+            "Label": "Sleeping With the Devil",
+            "Class": "n",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 5,
+            "Label": "The Man Who Warned America",
+            "Class": "c",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 6,
+            "Label": "Why America Slept",
+            "Class": "n",
+            "Degree": 11,
+            "Weight": 1
+        },
+        {
+            "Id": 7,
+            "Label": "Ghost Wars",
+            "Class": "n",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 8,
+            "Label": "A National Party No More",
+            "Class": "c",
+            "Degree": 25,
+            "Weight": 1
+        },
+        {
+            "Id": 9,
+            "Label": "Bush Country",
+            "Class": "c",
+            "Degree": 16,
+            "Weight": 1
+        },
+        {
+            "Id": 10,
+            "Label": "Dereliction of Duty",
+            "Class": "c",
+            "Degree": 15,
+            "Weight": 1
+        },
+        {
+            "Id": 11,
+            "Label": "Legacy",
+            "Class": "c",
+            "Degree": 18,
+            "Weight": 1
+        },
+        {
+            "Id": 12,
+            "Label": "Off with Their Heads",
+            "Class": "c",
+            "Degree": 25,
+            "Weight": 1
+        },
+        {
+            "Id": 13,
+            "Label": "Persecution",
+            "Class": "c",
+            "Degree": 13,
+            "Weight": 1
+        },
+        {
+            "Id": 14,
+            "Label": "Rumsfeld's War",
+            "Class": "c",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 15,
+            "Label": "Breakdown",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 16,
+            "Label": "Betrayal",
+            "Class": "c",
+            "Degree": 3,
+            "Weight": 1
+        },
+        {
+            "Id": 17,
+            "Label": "Shut Up and Sing",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 18,
+            "Label": "Meant To Be",
+            "Class": "n",
+            "Degree": 3,
+            "Weight": 1
+        },
+        {
+            "Id": 19,
+            "Label": "The Right Man",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 20,
+            "Label": "Ten Minutes from Normal",
+            "Class": "c",
+            "Degree": 10,
+            "Weight": 1
+        },
+        {
+            "Id": 21,
+            "Label": "Hillary's Scheme",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 22,
+            "Label": "The French Betrayal of America",
+            "Class": "c",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 23,
+            "Label": "Tales from the Left Coast",
+            "Class": "c",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 24,
+            "Label": "Hating America",
+            "Class": "c",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 25,
+            "Label": "The Third Terrorist",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 26,
+            "Label": "Endgame",
+            "Class": "c",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 27,
+            "Label": "Spin Sisters",
+            "Class": "c",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 28,
+            "Label": "All the Shah's Men",
+            "Class": "n",
+            "Degree": 3,
+            "Weight": 1
+        },
+        {
+            "Id": 29,
+            "Label": "Dangerous Dimplomacy",
+            "Class": "c",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 30,
+            "Label": "The Price of Loyalty",
+            "Class": "l",
+            "Degree": 20,
+            "Weight": 1
+        },
+        {
+            "Id": 31,
+            "Label": "House of Bush, House of Saud",
+            "Class": "l",
+            "Degree": 11,
+            "Weight": 1
+        },
+        {
+            "Id": 32,
+            "Label": "The Death of Right and Wrong",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 33,
+            "Label": "Useful Idiots",
+            "Class": "c",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 34,
+            "Label": "The O'Reilly Factor",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 35,
+            "Label": "Let Freedom Ring",
+            "Class": "c",
+            "Degree": 10,
+            "Weight": 1
+        },
+        {
+            "Id": 36,
+            "Label": "Those Who Trespass",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 37,
+            "Label": "Bias",
+            "Class": "c",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 38,
+            "Label": "Slander",
+            "Class": "c",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 39,
+            "Label": "The Savage Nation",
+            "Class": "c",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 40,
+            "Label": "Deliver Us from Evil",
+            "Class": "c",
+            "Degree": 18,
+            "Weight": 1
+        },
+        {
+            "Id": 41,
+            "Label": "Give Me a Break",
+            "Class": "c",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 42,
+            "Label": "The Enemy Within",
+            "Class": "c",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 43,
+            "Label": "The Real America",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 44,
+            "Label": "Who's Looking Out for You?",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 45,
+            "Label": "The Official Handbook Vast Right Wing Conspiracy",
+            "Class": "c",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 46,
+            "Label": "Power Plays",
+            "Class": "n",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 47,
+            "Label": "Arrogance",
+            "Class": "c",
+            "Degree": 18,
+            "Weight": 1
+        },
+        {
+            "Id": 48,
+            "Label": "The Perfect Wife",
+            "Class": "n",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 49,
+            "Label": "The Bushes",
+            "Class": "c",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 50,
+            "Label": "Things Worth Fighting For",
+            "Class": "c",
+            "Degree": 3,
+            "Weight": 1
+        },
+        {
+            "Id": 51,
+            "Label": "Surprise, Security, the American Experience",
+            "Class": "n",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 52,
+            "Label": "Allies",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 53,
+            "Label": "Why Courage Matters",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 54,
+            "Label": "Hollywood Interrupted",
+            "Class": "c",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 55,
+            "Label": "Fighting Back",
+            "Class": "c",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 56,
+            "Label": "We Will Prevail",
+            "Class": "c",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 57,
+            "Label": "The Faith of George W Bush",
+            "Class": "c",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 58,
+            "Label": "Rise of the Vulcans",
+            "Class": "c",
+            "Degree": 13,
+            "Weight": 1
+        },
+        {
+            "Id": 59,
+            "Label": "Downsize This!",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 60,
+            "Label": "Stupid White Men",
+            "Class": "l",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 61,
+            "Label": "Rush Limbaugh Is a Big Fat Idiot",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 62,
+            "Label": "The Best Democracy Money Can Buy",
+            "Class": "l",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 63,
+            "Label": "The Culture of Fear",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 64,
+            "Label": "America Unbound",
+            "Class": "l",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 65,
+            "Label": "The Choice",
+            "Class": "l",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 66,
+            "Label": "The Great Unraveling",
+            "Class": "l",
+            "Degree": 21,
+            "Weight": 1
+        },
+        {
+            "Id": 67,
+            "Label": "Rogue Nation",
+            "Class": "l",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 68,
+            "Label": "Soft Power",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 69,
+            "Label": "Colossus",
+            "Class": "n",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 70,
+            "Label": "The Sorrows of Empire",
+            "Class": "l",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 71,
+            "Label": "Against All Enemies",
+            "Class": "l",
+            "Degree": 15,
+            "Weight": 1
+        },
+        {
+            "Id": 72,
+            "Label": "American Dynasty",
+            "Class": "l",
+            "Degree": 22,
+            "Weight": 1
+        },
+        {
+            "Id": 73,
+            "Label": "Big Lies",
+            "Class": "l",
+            "Degree": 21,
+            "Weight": 1
+        },
+        {
+            "Id": 74,
+            "Label": "The Lies of George W. Bush",
+            "Class": "l",
+            "Degree": 16,
+            "Weight": 1
+        },
+        {
+            "Id": 75,
+            "Label": "Worse Than Watergate",
+            "Class": "l",
+            "Degree": 16,
+            "Weight": 1
+        },
+        {
+            "Id": 76,
+            "Label": "Plan of Attack",
+            "Class": "n",
+            "Degree": 13,
+            "Weight": 1
+        },
+        {
+            "Id": 77,
+            "Label": "Bush at War",
+            "Class": "c",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 78,
+            "Label": "The New Pearl Harbor",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 79,
+            "Label": "Bushwomen",
+            "Class": "l",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 80,
+            "Label": "The Bubble of American Supremacy",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 81,
+            "Label": "Living History",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 82,
+            "Label": "The Politics of Truth",
+            "Class": "l",
+            "Degree": 9,
+            "Weight": 1
+        },
+        {
+            "Id": 83,
+            "Label": "Fanatics and Fools",
+            "Class": "l",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 84,
+            "Label": "Bushwhacked",
+            "Class": "l",
+            "Degree": 23,
+            "Weight": 1
+        },
+        {
+            "Id": 85,
+            "Label": "Disarming Iraq",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 86,
+            "Label": "Lies and the Lying Liars Who Tell Them",
+            "Class": "l",
+            "Degree": 14,
+            "Weight": 1
+        },
+        {
+            "Id": 87,
+            "Label": "MoveOn's 50 Ways to Love Your Country",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 88,
+            "Label": "The Buying of the President 2004",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 89,
+            "Label": "Perfectly Legal",
+            "Class": "l",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 90,
+            "Label": "Hegemony or Survival",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 91,
+            "Label": "The Exception to the Rulers",
+            "Class": "l",
+            "Degree": 8,
+            "Weight": 1
+        },
+        {
+            "Id": 92,
+            "Label": "Freethinkers",
+            "Class": "l",
+            "Degree": 3,
+            "Weight": 1
+        },
+        {
+            "Id": 93,
+            "Label": "Had Enough?",
+            "Class": "l",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 94,
+            "Label": "It's Still the Economy, Stupid!",
+            "Class": "l",
+            "Degree": 7,
+            "Weight": 1
+        },
+        {
+            "Id": 95,
+            "Label": "We're Right They're Wrong",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 96,
+            "Label": "What Liberal Media?",
+            "Class": "l",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 97,
+            "Label": "The Clinton Wars",
+            "Class": "l",
+            "Degree": 6,
+            "Weight": 1
+        },
+        {
+            "Id": 98,
+            "Label": "Weapons of Mass Deception",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 99,
+            "Label": "Dude, Where's My Country?",
+            "Class": "l",
+            "Degree": 12,
+            "Weight": 1
+        },
+        {
+            "Id": 100,
+            "Label": "Thieves in High Places",
+            "Class": "l",
+            "Degree": 12,
+            "Weight": 1
+        },
+        {
+            "Id": 101,
+            "Label": "Shrub",
+            "Class": "l",
+            "Degree": 5,
+            "Weight": 1
+        },
+        {
+            "Id": 102,
+            "Label": "Buck Up Suck Up",
+            "Class": "l",
+            "Degree": 4,
+            "Weight": 1
+        },
+        {
+            "Id": 103,
+            "Label": "The Future of Freedom",
+            "Class": "n",
+            "Degree": 2,
+            "Weight": 1
+        },
+        {
+            "Id": 104,
+            "Label": "Empire",
+            "Class": "n",
+            "Degree": 3,
+            "Weight": 1
+        }
+    ]
+}

@@ -46,7 +46,31 @@ function createAdjacencyMatrix(data) {
                     return "gray";
                 }
             })
-        .style("fill-opacity", function (d) {return d.weight * .8;});
+        .style("fill-opacity", function (d) {
+            return d.weight * .8;})
+        .on("mouseover", function(d){
+            if(d.weight !== 0){
+                //Get this bar's x/y values, then augment for the tooltip
+                var xPosition = parseFloat(d3.select(this).attr("x"))+$("svg").position().left;
+                var yPosition = parseFloat(d3.select(this).attr("y"))+$("svg").position().top;
+    //                console.log("x:"+d3.select(this).attr("x"));
+                
+                //Update the tooltip position and value
+                d3.select("#tooltip")
+                    .style("left", xPosition + "px")
+                    .style("top", yPosition + "px")						
+                    .select("#source")
+                    .text(d.source.Label);
+                d3.select("#target")
+                    .text(d.target.Label);
+                //Show the tooltip
+                d3.select("#tooltip").classed("hidden", false);
+            }
+        })
+        .on("mouseout", function() {		   
+            //Hide the tooltip
+            d3.select("#tooltip").classed("hidden", true);
+         });;
 
   d3.select("#adjacencyG")
     .call(adjacencyMatrix.xAxis);

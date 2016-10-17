@@ -49,31 +49,29 @@
                             weight: 0, 
                             height: nodeHeight, 
                             width: nodeWidth};
-
+                var mirrorGrid = {id: targetNode.Id + "-" + sourceNode.Id,
+                                source: targetNode, 
+                                target: sourceNode, 
+                                x: xScale(a), 
+                                y: yScale(b), 
+                                weight: 0, 
+                                height: nodeHeight, 
+                                width: nodeWidth};
                 var edgeWeight = 0;
                 if (edgeHash[grid.id]) {
-                    
                     edgeWeight = edgeHash[grid.id].weight;
                     grid.weight = edgeWeight;
-                };
-                matrix.push(grid);
-                if (directed === false) {
-                    var mirrorGrid = {id: sourceNode.Id + "-" + targetNode.Id,
-                                        source: targetNode, 
-                                        target: sourceNode, 
-                                        x: xScale(a), 
-                                        y: yScale(b), 
-                                        weight: 0, 
-                                        height: nodeHeight, 
-                                        width: nodeWidth};
-                    if(edgeHash[mirrorGrid.id]) {
-                        mirrorGrid.weight = edgeHash[mirrorGrid.id].weight;
-                    }
-                    matrix.push(mirrorGrid);
+                    mirrorGrid.weight = edgeWeight;
+                }else if(edgeHash[mirrorGrid.id]){
+                    edgeWeight = edgeHash[mirrorGrid.id].weight;
+                    grid.weight = edgeWeight;
+                    mirrorGrid.weight = edgeWeight;
                 }
+                matrix.push(grid);
+                matrix.push(mirrorGrid);
             });
         });
-//        console.log("matrix", matrix, matrix.length);
+        console.log("matrix", matrix, matrix.length);
 
         return matrix;
     }
@@ -91,55 +89,66 @@
     };
 
     matrix.nodes = function(x) {
-      if (!arguments.length) return nodes;
-      nodes = x;
-      return matrix;
+        if (!arguments.length) return nodes;
+        nodes = x;
+        return matrix;
     };
 
     matrix.links = function(x) {
-      if (!arguments.length) return edges;
-      edges = x;
-      return matrix;
+        if (!arguments.length) return edges;
+        edges = x;
+        return matrix;
     };
 
     matrix.edgeWeight = function(x) {
-      if (!arguments.length) return edgeWeight;
-      if (typeof x === "function") {
-        edgeWeight = x;
-      }
-      else {
-        edgeWeight = function () {return x;};
-      }
-      return matrix;
+        if (!arguments.length) return edgeWeight;
+        if (typeof x === "function") {
+          edgeWeight = x;
+        }
+        else {
+          edgeWeight = function () {return x;};
+        }
+        return matrix;
     };
 
     matrix.nodeID = function(x) {
-      if (!arguments.length) return nodeID;
-      if (typeof x === "function") {
-        nodeID = x;
-      }
-      return matrix;
+        if (!arguments.length) return nodeID;
+        if (typeof x === "function") {
+          nodeID = x;
+        }
+        return matrix;
     };
 
     matrix.xAxis = function(calledG) {
-      var nameScale = d3.scale.ordinal()
-      .domain(nodes.map(nodeID))
-      .rangePoints([0,size[0]],1);
+        var nodesName = nodes.map(nodeID);
+        var i = 0;
+        nodesName.forEach(function(node){
+            nodesName[i] = node.substring(0,5)+"...";
+            i++;
+        });
+        
+        var nameScale = d3.scale.ordinal()
+                          .domain(nodesName)
+                          .rangePoints([0,size[0]],1);
+        var xAxis = d3.svg.axis().scale(nameScale).orient("top").tickSize(4);
 
-      var xAxis = d3.svg.axis().scale(nameScale).orient("top").tickSize(4);
-
-      calledG.append("g")
-            .attr("class", "am-xAxis am-axis")
-            .call(xAxis)
-            .selectAll("text")
-            .style("text-anchor", "end")
-            .attr("transform", "translate(-10,-10) rotate(90)");
-
+        calledG.append("g")
+              .attr("class", "am-xAxis am-axis")
+              .call(xAxis)
+              .selectAll("text")
+              .style("text-anchor", "end")
+              .attr("transform", "translate(-10,-10) rotate(90)");
     };
 
     matrix.yAxis = function(calledG) {
+        var nodesName = nodes.map(nodeID);
+        var i = 0;
+        nodesName.forEach(function(node){
+            nodesName[i] = node.substring(0,5)+"...";
+            i++;
+        });
         var nameScale = d3.scale.ordinal()
-                          .domain(nodes.map(nodeID))
+                          .domain(nodesName)
                           .rangePoints([0,size[1]],1);
 
         yAxis = d3.svg.axis().scale(nameScale)

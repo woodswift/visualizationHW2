@@ -1,5 +1,5 @@
 svg {
-    height: 1400px;
+    height: 1420px;
     width: 1500px;
     border: 1px solid gray;
     margin: auto;  
@@ -11,6 +11,8 @@ g {
 }
 g.am-axis text {
     font-size: 10px;
+    width:auto;
+    height:auto;
 }
 
 .domain {

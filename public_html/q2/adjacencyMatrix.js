@@ -9,7 +9,7 @@ d3.json("./polBooksSorted.json", createAdjacencyMatrix);
 function createAdjacencyMatrix(data) {
 //    console.log(data);
     var adjacencyMatrix = d3.layout.adjacencyMatrix()
-                        .size([1350,1350])
+                        .size([1330,1330])
                         .nodes(data.nodes)
                         .links(data.links)
                         .directed(false)
@@ -23,7 +23,7 @@ function createAdjacencyMatrix(data) {
         
     d3.select("svg")
         .append("g")
-        .attr("transform", "translate(50,50)")
+        .attr("transform", "translate(73,80)")
         .attr("id", "adjacencyG")
         .selectAll("rect")
         .data(matrixData)
@@ -53,7 +53,6 @@ function createAdjacencyMatrix(data) {
                 //Get this bar's x/y values, then augment for the tooltip
                 var xPosition = parseFloat(d3.select(this).attr("x"))+$("svg").position().left;
                 var yPosition = parseFloat(d3.select(this).attr("y"))+$("svg").position().top-50;
-    //                console.log("x:"+d3.select(this).attr("x"));
                 
                 //Update the tooltip position and value
                 d3.select("#tooltip")

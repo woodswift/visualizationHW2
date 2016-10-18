@@ -17,10 +17,14 @@
             edgeHash = [],
             xScale = d3.scale.linear().domain([0,nodes.length]).range([0,width]),
             yScale = d3.scale.linear().domain([0,nodes.length]).range([0,height]);
-
+            
+                
 //        nodes.forEach(function(node, i) {
 //            node.sortedIndex = i;
 //        });
+//console.log(nodeWidth);
+//console.log(xScale(1));
+        console.log(xScale(0),xScale(104));
         edges.forEach(function(edge) {
             var constructedEdge = {source: edge.source, 
                                     target: edge.target, 
@@ -71,7 +75,7 @@
                 matrix.push(mirrorGrid);
             });
         });
-        console.log("matrix", matrix, matrix.length);
+//        console.log("matrix", matrix, matrix.length);
 
         return matrix;
     }
@@ -122,18 +126,27 @@
     matrix.xAxis = function(calledG) {
         var nodesName = nodes.map(nodeID);
         var i = 0;
-        nodesName.forEach(function(node){
-            nodesName[i] = node.substring(0,5)+"...";
-            i++;
-        });
+//        nodesName.forEach(function(node){
+//            nodesName[i] = node.substring(0,5)+"...";
+//            i++;
+//        });
+        console.log(nodesName);
         
+        for(;i<nodesName.length;i++){
+            nodesName[i] = nodesName[i].substring(0,8)+"...";
+        }
+        console.log(nodesName);
         var nameScale = d3.scale.ordinal()
                           .domain(nodesName)
                           .rangePoints([0,size[0]],1);
+                
         var xAxis = d3.svg.axis().scale(nameScale).orient("top").tickSize(4);
-
+//        console.log(nodesName[nodesName.length-1]);
+//        console.log(xAxis(nodesName));
+        
         calledG.append("g")
               .attr("class", "am-xAxis am-axis")
+              .style("height", "20px")
               .call(xAxis)
               .selectAll("text")
               .style("text-anchor", "end")
@@ -144,7 +157,7 @@
         var nodesName = nodes.map(nodeID);
         var i = 0;
         nodesName.forEach(function(node){
-            nodesName[i] = node.substring(0,5)+"...";
+            nodesName[i] = node.substring(0,8)+"...";
             i++;
         });
         var nameScale = d3.scale.ordinal()

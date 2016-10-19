@@ -14,9 +14,10 @@ body{
     padding-bottom: 20px
 }
 .title{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .teamMember{
@@ -36,7 +37,7 @@ body{
 }
 #tooltip {
     position: absolute;
-    width: 150px;
+    width: 180px;
     height: auto;
     padding: 8px;
     background-color: white;

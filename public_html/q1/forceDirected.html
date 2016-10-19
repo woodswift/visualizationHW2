@@ -6,17 +6,38 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Question 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
         <script type="text/javascript" src = "../jquery-1.9.0.min.js"></script>
         <link rel="stylesheet" type="text/css" href="./q1.css"/>
         <link rel="stylesheet" type="text/css" href="../common.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div class="controller">
             <button id="return">return</button>
+        </div>
+        <div>   
+            <p>
+                Annotation:
+            </p>
+            <p>
+                (Blue)c represents the class "conservative", (red)l represents the class "liberal" and (yellow)n represents the class "neutral"
+            </p>
+            <p>
+                The size of the nodes is based on the node's "degree" field; when node's degree is bigger than 10, then the node's label will show up.
+            </p>
+            <p>
+                The edges between each pair of nodes mean frequent co-purchasing of books by the same buyers
+            </p>
+        </div>
+        <div id="tooltip" style="position:relative; width:300px;margin:auto;">
+            <p>Book Name: <strong id="label"></strong></p>
+            <p>Class: <span id="class"></span></p>
+            <p>Degree: <span id="degree"></span></p>
         </div>
         <script type="text/javascript" src="./forceDirected.js"></script>
     </body>
